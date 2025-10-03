@@ -6,7 +6,7 @@
 
 |                                  |                                                   |
 | -------------------------------- | ------------------------------------------------- |
-| __Maximální počet bodů__         | 10 bodů                                           |
+| __Maximální počet bodů__         | 9 bodů                                            |
 | __Způsob komunikace s aplikací__ | Parametry předané při spuštění + síťové připojení |
 | __Způsob testování aplikace__    | Na základě odesílaných MQTT zpráv po síti         |
 
