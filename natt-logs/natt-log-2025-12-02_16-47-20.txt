@@ -1,0 +1,412 @@
+[16:47:20][PluginLoader][WARNING] Plugins directory not found.
+[16:47:20][NATTCore][INFO] NATT CORE initialization done
+Version: 1.7.0 
+Configuration path: https://gitlab.com/ap5vs/test-config/mqtt-client-config/-/raw/main/test-config-8.yaml?ref_type=heads
+Configuration loading mode: FROM URL
+[16:47:20][NATTCore][INFO] Working directory path: C:\Users\grajc\Documents\GitHub\MQTT-client
+[16:47:20][NATTCore][INFO] Start loading of the configuration file ...
+[16:47:20][NetworkIO][INFO] Yaml data has been loaded from network location (https://gitlab.com/ap5vs/test-config/mqtt-client-config/-/raw/main/test-config-8.yaml?ref_type=heads)
+[16:47:20][NATTCore][INFO] Configuration loading done
+[16:47:20][NATTCore][INFO] Start building test structure according to the configuration ...
+[16:47:20][NATTCore][INFO] Test structure ...
+[16:47:20][NATTCore][INFO] Test structure building done
+[16:47:20][NATTCore][INFO] Start test executing ...
+[16:47:20][TestReportGenerator][INFO] Extenet reports generated. Final report will be saved to file: test_report.html
+[16:47:20][NATTCore][INFO] Starts execution on the root keyword  ...
+[16:47:20][NATTContext][INFO] Data has been stored in to the variable 'in-topic'. Data value: topic/device1/in
+[16:47:20][MessageBuffer][INFO] Message buffer created for module with name: broker-1
+[16:47:21][MQTTBroker][INFO] (broker-1) MQTT broker is running on port: 1883
+[16:47:21][WaitKw][INFO] Waiting: 800 ms
+[16:47:21][MessageBuffer][INFO] Message buffer created for module with name: client-1
+[16:47:22][MQTTClientTester][INFO] (client-1) MQTT Client module is running.
+[16:47:22][WaitKw][INFO] Waiting: 800 ms
+[16:47:22][TestSuiteKw][INFO] Test case 'Test automaticky odesílaných zpráv' starts executing now
+[16:47:22][MessageBuffer][INFO] Message buffer created for module with name: default
+[16:47:22][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 5000 ms
+[16:47:24][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar app/build/libs/app-all.jar 2493434934 0.1 0.1
+[16:47:24][ProcessManager][INFO] New PID (28236) added to file
+[16:47:27][WaitUntilKw][WARNING] Timeout.. Action was not invoked!
+[16:47:27][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 11000 ms
+[16:47:39][WaitUntilKw][WARNING] Timeout.. Action was not invoked!
+[16:47:39][TestSuiteKw][ERROR] Test suite 'Testování přijímání zpráv vlhkosti půdy' - Test case 'Test automaticky odesílaných zpráv' failed
+[16:47:39][MessageBuffer][INFO] Message buffer cleared
+[16:47:39][ExternalProgramRunner][INFO] (default) Termiting external application
+[16:47:39][ProcessManager][INFO] PID (28236) removed from file
+[16:47:39][ProcessManager][INFO] PID (28236) removed from file
+[16:47:39][ExternalProgramRunner][WARNING] (default) External application ends with error: 1
+[16:47:39][ExternalProgramRunner][WARNING] (default) Error message from external application: Temperature = 21,666973
+ Current Moisture Level = 20,000000 %
+Simulation running...
+Updated moisture level: 19.999105, Delta time: 0.007s
+Updated moisture level: 19.967287, Delta time: 0.249s
+Updated moisture level: 19.93534, Delta time: 0.25s
+Updated moisture level: 19.90148, Delta time: 0.265s
+Updated moisture level: 19.86979, Delta time: 0.248s
+Updated moisture level: 19.838354, Delta time: 0.246s
+Updated moisture level: 19.806664, Delta time: 0.248s
+Updated moisture level: 19.774973, Delta time: 0.248s
+Updated moisture level: 19.743155, Delta time: 0.249s
+Updated moisture level: 19.711464, Delta time: 0.248s
+Updated moisture level: 19.679518, Delta time: 0.25s
+Updated moisture level: 19.645784, Delta time: 0.264s
+Updated moisture level: 19.614094, Delta time: 0.248s
+Updated moisture level: 19.582531, Delta time: 0.247s
+Updated moisture level: 19.551224, Delta time: 0.245s
+Updated moisture level: 19.519533, Delta time: 0.248s
+Updated moisture level: 19.486311, Delta time: 0.26s
+Updated moisture level: 19.45462, Delta time: 0.248s
+Updated moisture level: 19.42293, Delta time: 0.248s
+Updated moisture level: 19.39124, Delta time: 0.248s
+Updated moisture level: 19.359932, Delta time: 0.245s
+Updated moisture level: 19.326454, Delta time: 0.262s
+Updated moisture level: 19.296297, Delta time: 0.236s
+Updated moisture level: 19.262691, Delta time: 0.263s
+Updated moisture level: 19.230873, Delta time: 0.249s
+Updated moisture level: 19.199055, Delta time: 0.249s
+Updated moisture level: 19.167492, Delta time: 0.247s
+Updated moisture level: 19.13593, Delta time: 0.247s
+Updated moisture level: 19.104366, Delta time: 0.247s
+Updated moisture level: 19.07076, Delta time: 0.263s
+Updated moisture level: 19.039326, Delta time: 0.246s
+Updated moisture level: 19.00789, Delta time: 0.246s
+Updated moisture level: 18.9762, Delta time: 0.248s
+Updated moisture level: 18.94451, Delta time: 0.248s
+Updated moisture level: 18.912819, Delta time: 0.248s
+Updated moisture level: 18.881, Delta time: 0.249s
+Updated moisture level: 18.847523, Delta time: 0.262s
+Updated moisture level: 18.815577, Delta time: 0.25s
+Updated moisture level: 18.783886, Delta time: 0.248s
+Updated moisture level: 18.752323, Delta time: 0.247s
+Updated moisture level: 18.72076, Delta time: 0.247s
+Updated moisture level: 18.688942, Delta time: 0.249s
+Updated moisture level: 18.657507, Delta time: 0.246s
+Updated moisture level: 18.623646, Delta time: 0.265s
+Updated moisture level: 18.591955, Delta time: 0.248s
+Updated moisture level: 18.560392, Delta time: 0.247s
+Updated moisture level: 18.528957, Delta time: 0.246s
+Updated moisture level: 18.497395, Delta time: 0.247s
+Updated moisture level: 18.464045, Delta time: 0.261s
+Updated moisture level: 18.432226, Delta time: 0.249s
+Updated moisture level: 18.400536, Delta time: 0.248s
+Updated moisture level: 18.368973, Delta time: 0.247s
+Updated moisture level: 18.337538, Delta time: 0.246s
+Updated moisture level: 18.305847, Delta time: 0.248s
+Updated moisture level: 18.27237, Delta time: 0.262s
+Updated moisture level: 18.240807, Delta time: 0.247s
+Updated moisture level: 18.209116, Delta time: 0.248s
+Updated moisture level: 18.177553, Delta time: 0.247s
+Updated moisture level: 18.145607, Delta time: 0.25s
+
+[16:47:40][TestSuiteKw][INFO] Test case 'Test vyžádání odesílání zprávy' starts executing now
+[16:47:40][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 5000 ms
+[16:47:41][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar app/build/libs/app-all.jar 2493434934 0.1 0.1
+[16:47:41][ProcessManager][INFO] New PID (27944) added to file
+[16:47:45][WaitUntilKw][WARNING] Timeout.. Action was not invoked!
+[16:47:45][MQTTClientTester][INFO] (client-1) Message send on topic [topic/device1/in] with content: get-humidity
+[16:47:45][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 5000 ms
+[16:47:45][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '0.17304134'
+[16:47:46][MessageBuffer][INFO] Message added to buffer [ Mod: client-1 | Tag: topic/device1/out ] Content: 'humidity;19.487587'
+[16:47:46][WaitUntilKw][INFO] Action triggered from module 'client-1'
+[16:47:46][NATTContext][INFO] Data has been stored in to the variable 'client-1-action-msg'. Data value: humidity;19.487587
+[16:47:46][WaitUntilKw][INFO] Action triggered from module 'client-1'
+[16:47:46][NATTContext][INFO] Data has been stored in to the variable 'client-1-action-msg'. Data value: humidity;19.487587
+[16:47:46][WaitUntilKw][INFO] Action triggered from module 'client-1'
+[16:47:46][NATTContext][INFO] Data has been stored in to the variable 'client-1-action-msg'. Data value: humidity;19.487587
+[16:47:46][WaitUntilKw][INFO] Action triggered from module 'client-1'
+[16:47:46][NATTContext][INFO] Data has been stored in to the variable 'client-1-action-msg'. Data value: humidity;19.487587
+[16:47:46][WaitUntilKw][INFO] Action was invoked. Elapsed time: 918 ms
+[16:47:46][NATTContext][INFO] Data has been stored in to the variable 'var-1'. Data value: 1
+[16:47:46][AssertEqualsKw][WARNING] Assertion failed. True was expected as the result. Condition: (Expected value '2,000000' must be same as the value of the variable '1')
+[16:47:46][TestSuiteKw][ERROR] Test suite 'Testování přijímání zpráv vlhkosti půdy' - Test case 'Test vyžádání odesílání zprávy' failed
+[16:47:46][MessageBuffer][INFO] Message buffer cleared
+[16:47:46][ExternalProgramRunner][INFO] (default) Termiting external application
+[16:47:46][ProcessManager][INFO] PID (27944) removed from file
+[16:47:46][ProcessManager][INFO] PID (27944) removed from file
+[16:47:46][ExternalProgramRunner][WARNING] (default) External application ends with error: 1
+[16:47:46][ExternalProgramRunner][WARNING] (default) Error message from external application: Temperature = 21,666973
+ Current Moisture Level = 20,000000 %
+Simulation running...
+Updated moisture level: 19.999233, Delta time: 0.006s
+Updated moisture level: 19.96716, Delta time: 0.251s
+Updated moisture level: 19.933426, Delta time: 0.264s
+Updated moisture level: 19.901863, Delta time: 0.247s
+Updated moisture level: 19.8703, Delta time: 0.247s
+Updated moisture level: 19.83861, Delta time: 0.248s
+Updated moisture level: 19.806791, Delta time: 0.249s
+Updated moisture level: 19.775229, Delta time: 0.247s
+Updated moisture level: 19.743538, Delta time: 0.248s
+Updated moisture level: 19.711464, Delta time: 0.251s
+Updated moisture level: 19.677858, Delta time: 0.263s
+Updated moisture level: 19.64604, Delta time: 0.249s
+Updated moisture level: 19.614605, Delta time: 0.246s
+Updated moisture level: 19.582914, Delta time: 0.248s
+Updated moisture level: 19.551096, Delta time: 0.249s
+Updated moisture level: 19.51966, Delta time: 0.246s
+Updated moisture level: 19.487587, Delta time: 0.251s
+Updated moisture level: 19.45564, Delta time: 0.25s
+Updated moisture level: 19.423695, Delta time: 0.25s
+
+[16:47:47][MessageBuffer][INFO] Message buffer cleared
+[16:47:47][TestSuiteKw][INFO] Test case 'Test získaní stavu zavlažování' starts executing now
+[16:47:47][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar app/build/libs/app-all.jar 2493434934 0.1 0.1
+[16:47:47][ProcessManager][INFO] New PID (1800) added to file
+[16:47:47][WaitKw][INFO] Waiting: 1000 ms
+[16:47:48][MQTTClientTester][INFO] (client-1) Message send on topic [topic/device1/in] with content: get-status
+[16:47:48][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 5000 ms
+[16:47:49][MessageBuffer][INFO] Message added to buffer [ Mod: client-1 | Tag: topic/device1/out ] Content: 'status;irrigation_off'
+[16:47:49][WaitUntilKw][INFO] Action triggered from module 'client-1'
+[16:47:49][NATTContext][INFO] Data has been stored in to the variable 'client-1-action-msg'. Data value: status;irrigation_off
+[16:47:49][WaitUntilKw][INFO] Action was invoked. Elapsed time: 791 ms
+[16:47:49][TestSuiteKw][INFO] Test suite 'Testování řízení závlahy' - Test case 'Test získaní stavu zavlažování' passed
+[16:47:49][MessageBuffer][INFO] Message buffer cleared
+[16:47:49][ExternalProgramRunner][INFO] (default) Termiting external application
+[16:47:49][ProcessManager][INFO] PID (1800) removed from file
+[16:47:49][ProcessManager][INFO] PID (1800) removed from file
+[16:47:49][ExternalProgramRunner][WARNING] (default) External application ends with error: 1
+[16:47:49][ExternalProgramRunner][WARNING] (default) Error message from external application: Temperature = 21,666973
+ Current Moisture Level = 20,000000 %
+Simulation running...
+Updated moisture level: 19.999105, Delta time: 0.007s
+Updated moisture level: 19.966648, Delta time: 0.254s
+Updated moisture level: 19.935085, Delta time: 0.247s
+Updated moisture level: 19.901735, Delta time: 0.261s
+Updated moisture level: 19.870045, Delta time: 0.248s
+Updated moisture level: 19.838226, Delta time: 0.249s
+Updated moisture level: 19.806536, Delta time: 0.248s
+Updated moisture level: 19.774845, Delta time: 0.248s
+
+[16:47:50][TestSuiteKw][INFO] Test case 'Test řízení zavlažování' starts executing now
+[16:47:50][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar app/build/libs/app-all.jar 2493434934 0.1 0.1
+[16:47:50][ProcessManager][INFO] New PID (5324) added to file
+[16:47:50][WaitKw][INFO] Waiting: 1000 ms
+[16:47:51][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 5000 ms
+[16:47:51][MQTTClientTester][INFO] (client-1) Message send on topic [topic/device1/in] with content: start-irrigation
+[16:47:52][MessageBuffer][INFO] Message added to buffer [ Mod: client-1 | Tag: topic/device1/out ] Content: 'status;irrigation_on'
+[16:47:52][WaitUntilKw][INFO] Action triggered from module 'client-1'
+[16:47:52][NATTContext][INFO] Data has been stored in to the variable 'client-1-action-msg'. Data value: status;irrigation_on
+[16:47:52][WaitUntilKw][INFO] Action was invoked. Elapsed time: 949 ms
+[16:47:52][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 5000 ms
+[16:47:52][MQTTClientTester][INFO] (client-1) Message send on topic [topic/device1/in] with content: stop-irrigation
+[16:47:53][MessageBuffer][INFO] Message added to buffer [ Mod: client-1 | Tag: topic/device1/out ] Content: 'status;irrigation_off'
+[16:47:53][WaitUntilKw][INFO] Action triggered from module 'client-1'
+[16:47:53][NATTContext][INFO] Data has been stored in to the variable 'client-1-action-msg'. Data value: status;irrigation_off
+[16:47:53][WaitUntilKw][INFO] Action was invoked. Elapsed time: 1005 ms
+[16:47:53][TestSuiteKw][INFO] Test suite 'Testování řízení závlahy' - Test case 'Test řízení zavlažování' passed
+[16:47:53][MessageBuffer][INFO] Message buffer cleared
+[16:47:53][ExternalProgramRunner][INFO] (default) Termiting external application
+[16:47:53][ProcessManager][INFO] PID (5324) removed from file
+[16:47:53][ProcessManager][INFO] PID (5324) removed from file
+[16:47:53][ExternalProgramRunner][WARNING] (default) External application ends with error: 1
+[16:47:53][ExternalProgramRunner][WARNING] (default) Error message from external application: Temperature = 21,666973
+ Current Moisture Level = 20,000000 %
+Simulation running...
+Updated moisture level: 19.999233, Delta time: 0.006s
+Updated moisture level: 19.967031, Delta time: 0.252s
+Updated moisture level: 19.933681, Delta time: 0.261s
+Updated moisture level: 19.901735, Delta time: 0.25s
+Updated moisture level: 19.869917, Delta time: 0.249s
+Updated moisture level: 21.078228, Delta time: 0.248s
+Updated moisture level: 22.29141, Delta time: 0.249s
+Updated moisture level: 23.504593, Delta time: 0.249s
+Updated moisture level: 24.712904, Delta time: 0.248s
+Updated moisture level: 24.681341, Delta time: 0.247s
+Updated moisture level: 24.64965, Delta time: 0.248s
+Updated moisture level: 24.616045, Delta time: 0.263s
+Updated moisture level: 24.584482, Delta time: 0.247s
+
+[16:47:54][TestSuiteKw][INFO] Test case 'Test automatického zastavení zavlažování' starts executing now
+[16:47:54][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar app/build/libs/app-all.jar 2493434934 0.1 0.1
+[16:47:54][ProcessManager][INFO] New PID (6300) added to file
+[16:47:54][WaitKw][INFO] Waiting: 1000 ms
+[16:47:55][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 5000 ms
+[16:47:55][MQTTClientTester][INFO] (client-1) Message send on topic [topic/device1/in] with content: start-irrigation
+[16:47:56][MessageBuffer][INFO] Message added to buffer [ Mod: client-1 | Tag: topic/device1/out ] Content: 'status;irrigation_on'
+[16:47:56][WaitUntilKw][INFO] Action triggered from module 'client-1'
+[16:47:56][NATTContext][INFO] Data has been stored in to the variable 'client-1-action-msg'. Data value: status;irrigation_on
+[16:47:56][WaitUntilKw][INFO] Action was invoked. Elapsed time: 948 ms
+[16:47:56][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 34000 ms
+[16:48:30][WaitUntilKw][WARNING] Timeout.. Action was not invoked!
+[16:48:30][AssertEqualsKw][WARNING] Assertion failed. True was expected as the result. Condition: (Value of variable 'status;irrigation_on' must contains expected text 'status;irrigation_off')
+[16:48:30][TestSuiteKw][ERROR] Test suite 'Testování řízení závlahy' - Test case 'Test automatického zastavení zavlažování' failed
+[16:48:30][MessageBuffer][INFO] Message buffer cleared
+[16:48:30][ExternalProgramRunner][INFO] (default) Termiting external application
+[16:48:30][ProcessManager][INFO] PID (6300) removed from file
+[16:48:30][ProcessManager][INFO] PID (6300) removed from file
+[16:48:30][ExternalProgramRunner][WARNING] (default) External application ends with error: 1
+[16:48:30][ExternalProgramRunner][WARNING] (default) Error message from external application: Temperature = 21,666973
+ Current Moisture Level = 20,000000 %
+Simulation running...
+Updated moisture level: 19.999105, Delta time: 0.007s
+Updated moisture level: 19.965372, Delta time: 0.264s
+Updated moisture level: 19.933937, Delta time: 0.246s
+Updated moisture level: 19.902502, Delta time: 0.246s
+Updated moisture level: 19.870684, Delta time: 0.249s
+Updated moisture level: 21.078995, Delta time: 0.248s
+Updated moisture level: 22.282433, Delta time: 0.247s
+Updated moisture level: 23.50536, Delta time: 0.251s
+Updated moisture level: 24.786753, Delta time: 0.263s
+Updated moisture level: 25.98532, Delta time: 0.246s
+Updated moisture level: 27.19363, Delta time: 0.248s
+Updated moisture level: 28.406813, Delta time: 0.249s
+Updated moisture level: 29.61025, Delta time: 0.247s
+Updated moisture level: 30.818562, Delta time: 0.248s
+Updated moisture level: 32.02687, Delta time: 0.248s
+Updated moisture level: 33.313137, Delta time: 0.264s
+Updated moisture level: 34.521446, Delta time: 0.248s
+Updated moisture level: 35.739502, Delta time: 0.25s
+Updated moisture level: 36.94781, Delta time: 0.248s
+Updated moisture level: 38.15125, Delta time: 0.247s
+Updated moisture level: 39.344944, Delta time: 0.245s
+Updated moisture level: 40.54838, Delta time: 0.247s
+Updated moisture level: 41.8249, Delta time: 0.262s
+Updated moisture level: 43.01372, Delta time: 0.244s
+Updated moisture level: 44.226906, Delta time: 0.249s
+Updated moisture level: 45.430344, Delta time: 0.247s
+Updated moisture level: 46.71174, Delta time: 0.263s
+Updated moisture level: 47.915176, Delta time: 0.247s
+Updated moisture level: 49.128357, Delta time: 0.249s
+Updated moisture level: 50.336666, Delta time: 0.248s
+Updated moisture level: 51.54985, Delta time: 0.249s
+Updated moisture level: 52.75329, Delta time: 0.247s
+Updated moisture level: 53.951855, Delta time: 0.246s
+Updated moisture level: 55.23812, Delta time: 0.264s
+Updated moisture level: 56.4513, Delta time: 0.249s
+Updated moisture level: 57.649868, Delta time: 0.246s
+Updated moisture level: 58.848434, Delta time: 0.246s
+Updated moisture level: 60.051872, Delta time: 0.247s
+Updated moisture level: 61.25531, Delta time: 0.247s
+Updated moisture level: 62.546448, Delta time: 0.265s
+Updated moisture level: 63.749886, Delta time: 0.247s
+Updated moisture level: 64.963066, Delta time: 0.249s
+Updated moisture level: 66.17138, Delta time: 0.248s
+Updated moisture level: 67.37969, Delta time: 0.248s
+Updated moisture level: 68.588005, Delta time: 0.248s
+Updated moisture level: 69.79632, Delta time: 0.248s
+Updated moisture level: 70.999756, Delta time: 0.247s
+Updated moisture level: 72.276276, Delta time: 0.262s
+Updated moisture level: 73.48459, Delta time: 0.248s
+Updated moisture level: 74.68315, Delta time: 0.246s
+Updated moisture level: 75.881714, Delta time: 0.246s
+Updated moisture level: 77.09977, Delta time: 0.25s
+Updated moisture level: 78.37629, Delta time: 0.262s
+Updated moisture level: 79.569984, Delta time: 0.245s
+Updated moisture level: 80.7783, Delta time: 0.248s
+Updated moisture level: 81.99148, Delta time: 0.249s
+Updated moisture level: 83.19004, Delta time: 0.246s
+Updated moisture level: 84.471436, Delta time: 0.263s
+Updated moisture level: 85.66513, Delta time: 0.245s
+Updated moisture level: 86.858826, Delta time: 0.245s
+Updated moisture level: 88.05252, Delta time: 0.245s
+Updated moisture level: 89.32904, Delta time: 0.262s
+Updated moisture level: 90.53248, Delta time: 0.247s
+Updated moisture level: 91.7213, Delta time: 0.244s
+Updated moisture level: 92.93448, Delta time: 0.249s
+Updated moisture level: 94.201256, Delta time: 0.26s
+Updated moisture level: 95.40469, Delta time: 0.247s
+Updated moisture level: 96.60813, Delta time: 0.247s
+Updated moisture level: 97.806694, Delta time: 0.246s
+Updated moisture level: 99.08321, Delta time: 0.262s
+Updated moisture level: 100.0, Delta time: 0.249s
+Updated moisture level: 100.0, Delta time: 0.249s
+Updated moisture level: 100.0, Delta time: 0.248s
+Updated moisture level: 100.0, Delta time: 0.247s
+
+[16:48:31][MessageBuffer][INFO] Message buffer cleared
+[16:48:31][TestSuiteKw][INFO] Test case 'Test odeslání chybové hlášky čidla' starts executing now
+[16:48:31][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 10000 ms
+[16:48:32][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar app/build/libs/app-all.jar 2493434934 0.98 0.98
+[16:48:32][ProcessManager][INFO] New PID (28344) added to file
+[16:48:41][WaitUntilKw][WARNING] Timeout.. Action was not invoked!
+[16:48:41][AssertEqualsKw][WARNING] Assertion failed. True was expected as the result. Condition: (Value of variable 'status;irrigation_on' must contains expected text 'fault;HUMIDITY_SENSOR')
+[16:48:41][TestSuiteKw][ERROR] Test suite 'Testování chybových zpráv' - Test case 'Test odeslání chybové hlášky čidla' failed
+[16:48:41][MessageBuffer][INFO] Message buffer cleared
+[16:48:41][ExternalProgramRunner][INFO] (default) Termiting external application
+[16:48:41][ProcessManager][INFO] PID (28344) removed from file
+[16:48:41][ProcessManager][INFO] PID (28344) removed from file
+[16:48:41][ExternalProgramRunner][WARNING] (default) External application ends with error: 1
+[16:48:41][ExternalProgramRunner][WARNING] (default) Error message from external application: Temperature = 21,666973
+ Current Moisture Level = 20,000000 %
+Simulation running...
+Updated moisture level: 19.999233, Delta time: 0.006s
+Updated moisture level: 19.967031, Delta time: 0.252s
+Updated moisture level: 19.933554, Delta time: 0.262s
+Updated moisture level: 19.901863, Delta time: 0.248s
+Updated moisture level: 19.870045, Delta time: 0.249s
+Updated moisture level: 19.838482, Delta time: 0.247s
+Updated moisture level: 19.806664, Delta time: 0.249s
+Updated moisture level: 19.774973, Delta time: 0.248s
+Updated moisture level: 19.743282, Delta time: 0.248s
+Updated moisture level: 19.711592, Delta time: 0.248s
+Updated moisture level: 19.677858, Delta time: 0.264s
+Updated moisture level: 19.646423, Delta time: 0.246s
+Updated moisture level: 19.614605, Delta time: 0.249s
+Updated moisture level: 19.582914, Delta time: 0.248s
+Updated moisture level: 19.551096, Delta time: 0.249s
+Updated moisture level: 19.51915, Delta time: 0.25s
+Updated moisture level: 19.487587, Delta time: 0.247s
+Updated moisture level: 19.455896, Delta time: 0.248s
+Updated moisture level: 19.42395, Delta time: 0.25s
+Updated moisture level: 19.390345, Delta time: 0.263s
+Updated moisture level: 19.35891, Delta time: 0.246s
+Updated moisture level: 19.327219, Delta time: 0.248s
+Updated moisture level: 19.295656, Delta time: 0.247s
+Updated moisture level: 19.264221, Delta time: 0.246s
+Updated moisture level: 19.230616, Delta time: 0.263s
+Updated moisture level: 19.198797, Delta time: 0.249s
+Updated moisture level: 19.167234, Delta time: 0.247s
+Updated moisture level: 19.135672, Delta time: 0.247s
+Updated moisture level: 19.103725, Delta time: 0.25s
+Updated moisture level: 19.071907, Delta time: 0.249s
+Updated moisture level: 19.040344, Delta time: 0.247s
+Updated moisture level: 19.008781, Delta time: 0.247s
+Updated moisture level: 18.975176, Delta time: 0.263s
+Updated moisture level: 18.943485, Delta time: 0.248s
+Updated moisture level: 18.911922, Delta time: 0.247s
+
+[16:48:42][TestSuiteKw][INFO] Test case 'Test odeslání chybové hlášky zalažování' starts executing now
+[16:48:42][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar app/build/libs/app-all.jar 2493434934 0.95 0.95
+[16:48:42][ProcessManager][INFO] New PID (8372) added to file
+[16:48:42][WaitKw][INFO] Waiting: 2000 ms
+[16:48:44][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 10000 ms
+[16:48:44][MQTTClientTester][INFO] (client-1) Message send on topic [topic/device1/in] with content: start-irrigation
+[16:48:45][MessageBuffer][INFO] Message added to buffer [ Mod: client-1 | Tag: topic/device1/out ] Content: 'fault;IRRIGATION_SYSTEM'
+[16:48:45][WaitUntilKw][INFO] Action triggered from module 'client-1'
+[16:48:45][NATTContext][INFO] Data has been stored in to the variable 'client-1-action-msg'. Data value: fault;IRRIGATION_SYSTEM
+[16:48:45][WaitUntilKw][INFO] Action triggered from module 'client-1'
+[16:48:45][NATTContext][INFO] Data has been stored in to the variable 'client-1-action-msg'. Data value: fault;IRRIGATION_SYSTEM
+[16:48:45][WaitUntilKw][INFO] Action triggered from module 'client-1'
+[16:48:45][NATTContext][INFO] Data has been stored in to the variable 'client-1-action-msg'. Data value: fault;IRRIGATION_SYSTEM
+[16:48:45][WaitUntilKw][INFO] Action was invoked. Elapsed time: 905 ms
+[16:48:45][TestSuiteKw][INFO] Test suite 'Testování chybových zpráv' - Test case 'Test odeslání chybové hlášky zalažování' passed
+[16:48:45][MessageBuffer][INFO] Message buffer cleared
+[16:48:45][ExternalProgramRunner][INFO] (default) Termiting external application
+[16:48:45][ProcessManager][INFO] PID (8372) removed from file
+[16:48:45][ProcessManager][INFO] PID (8372) removed from file
+[16:48:45][ExternalProgramRunner][WARNING] (default) External application ends with error: 1
+[16:48:45][ExternalProgramRunner][WARNING] (default) Error message from external application: Temperature = 21,666973
+ Current Moisture Level = 20,000000 %
+Simulation running...
+Updated moisture level: 19.999233, Delta time: 0.006s
+Updated moisture level: 19.967287, Delta time: 0.25s
+Updated moisture level: 19.935469, Delta time: 0.249s
+Updated moisture level: 19.90199, Delta time: 0.262s
+Updated moisture level: 19.870428, Delta time: 0.247s
+Updated moisture level: 19.83861, Delta time: 0.249s
+Updated moisture level: 19.806536, Delta time: 0.251s
+Updated moisture level: 19.774973, Delta time: 0.247s
+Updated moisture level: 19.743027, Delta time: 0.25s
+Updated moisture level: 19.711336, Delta time: 0.248s
+Updated moisture level: 19.677858, Delta time: 0.262s
+Updated moisture level: 19.64783, Delta time: 0.235s
+
+[16:48:46][MessageBuffer][INFO] Message buffer cleared
+[16:48:46][MessageBuffer][INFO] Message buffer cleared
+[16:48:46][MQTTClientTester][WARNING] Connection to MQTT broker lost
+[16:48:48][MQTTBroker][INFO] (broker-1) MQTT broker [broker-1] terminated
+[16:48:48][MQTTClientTester][INFO] (client-1) MQTT client [client-1] terminated
+[16:48:48][NATTCore][INFO] Test executing finished
+[16:48:48][NATTCore][INFO] Start generating test report
+[16:48:48][TestReportGenerator][INFO] Report saved to file
+[16:48:48][NATTCore][WARNING] Failed test cases: "Test automaticky odesílaných zpráv", "Test vyžádání odesílání zprávy", "Test automatického zastavení zavlažování", "Test odeslání chybové hlášky čidla"
+[16:48:48][NATTCore][INFO] Final score: 3,857143
+[16:48:48][NATTCore][ERROR] Testing done. Leaving status: FAILED

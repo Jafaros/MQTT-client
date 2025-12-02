@@ -1,0 +1,7 @@
+[17:05:22][PluginLoader][WARNING] Plugins directory not found.
+[17:05:22][NATTCore][INFO] NATT CORE initialization done
+Version: 1.7.0 
+Configuration path: https://gitlab.com/ap5vs/test-config/mqtt-client-config/-/raw/main/test-config-8.yaml?ref_type=headsexit
+Configuration loading mode: FROM URL
+[17:05:22][NATTCore][INFO] Working directory path: C:\Users\grajc\Documents\GitHub\MQTT-client
+[17:05:22][NATTCore][INFO] Start loading of the configuration file ...
